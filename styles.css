@@ -11,10 +11,10 @@ button {
   color: #33ccff;
   border-radius: 45px;
   height: 10%;
-  width: 60%;
+  width: 35%;
 
 
-  margin-top: 100px;
+  margin-top: 75%;
   margin-left: 0;
   maring-right: 0;
   position: absolute;
@@ -38,19 +38,20 @@ button:active {
 
 #numberDiv {
   color: rgb(0, 0, 139);
-  margin-top: 30px;
-  margin-bottom: 30px;
-  text-align: center;
 
-  margin-top: 50px;
+  text-align: center;
+  
+  height: 33%;
+  width: 100%;
+  
+  margin-top: 10%;
   margin-left: 0;
   maring-right: 0;
   position: absolute;
   left: 50%;
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  height: 10%;
-  width: 60%;
+
 }
 
 #length {
@@ -59,10 +60,12 @@ button:active {
   color: rgb(0, 0, 139);
   text-align: center;
 
-  height: 3%;
-  width: 50%;
+  height: 5%;
+  width: 35%;
   
-  margin-top: 1px;
+  padding: 0;
+  
+  margin-top: -1%;
   margin-left: 0;
   maring-right: 0;
   position: absolute;
