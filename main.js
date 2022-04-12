@@ -1,6 +1,6 @@
-var odd = [ "1", "3", "5" ];
-var even = [ "2", "4", "6" ];
-var neither = [ "7", "8", "9" ];
+var odd = [ "1", "3", "5", "1", "3", "5" ];
+var even = [ "2", "4", "6", "2", "4", "6" ];
+var neither = [ "7", "8", "9", "Alpha", "Beta", "Gamma" ];
 
 // Generate a new list of moves
 function generateNewMove() {
