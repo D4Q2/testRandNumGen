@@ -4,6 +4,7 @@ var neither = [ '7', '8', '9' ];
 
 // Generate a new list of moves
 function generateNewMove() {
+  alert('Test');
   // Declare some variables
   var strokes = '';
   var lastStroke = '';
@@ -15,7 +16,7 @@ function generateNewMove() {
   for (var i = 0; i < length; i++) {
     while (lastStroke == newStroke) {
       // Check if the last stroke was even
-      if (even.contains(lastStroke)) {
+      if (even.includes(lastStroke)) {
         var sel =  Math.floor(Math.random() * (odd.length + neither.length));
         newStroke = sel < odd.length ? odd[sel] : neither[sel - even.length];
       }
