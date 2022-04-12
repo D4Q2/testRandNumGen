@@ -1,0 +1,3 @@
+void generateNewNumber() {
+  alert("Test!");
+}
