@@ -1,14 +1,47 @@
 body {
-  background-color: beige;
+  background-color: rgb(245, 255, 250);
   font-family: "Times New Roman";
+  
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 button {
-  border: 2px solid powderblue;
-  color: powderblue;
-  border-radius: 20px;
+  background-color: rgba(0,0,0,0);
+  border: 2px solid #33ccff;
+  color: #33ccff;
+  border-radius: 45px;
+  height: 45px;
+  width: 150px;
+  
+  margin-left: 0;
+  maring-right: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+button:active {
+  background-color: #33ccff;
+  border: 2px solid #33ccff;
+  color: #33ccff;
+  border-radius: 45px;
+  height: 45px;
+  width: 150px;
+  
+  margin-left: 0;
+  maring-right: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 #numberDiv {
-  color: darkblue;
+  color: rgb(0, 0, 139);
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
