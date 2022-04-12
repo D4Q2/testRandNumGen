@@ -1,7 +1,14 @@
-.button {
-  color: rgb(255,255,255) 
+body {
+  background-color: beige;
+  font-family: "Times New Roman";
 }
 
 button {
-  color: rgb(255,0,0) 
+  border: 2px solid powderblue;
+  color: powderblue;
+  border-radius: 20px;
+}
+
+#numberDiv {
+  color: darkblue;
 }
