@@ -14,7 +14,7 @@ button {
   width: 35%;
 
 
-  margin-top: 25%;
+  margin-top: 18%;
   margin-left: 0;
   maring-right: 0;
   position: absolute;
@@ -44,7 +44,7 @@ button:active {
   height: 33%;
   width: 100%;
   
-  margin-top: 10%;
+  margin-top: 9%;
   margin-left: 0;
   maring-right: 0;
   position: absolute;
@@ -65,7 +65,7 @@ button:active {
   
   padding: 0;
   
-  margin-top: -1%;
+  margin-top: 1%;
   margin-left: 0;
   maring-right: 0;
   position: absolute;
